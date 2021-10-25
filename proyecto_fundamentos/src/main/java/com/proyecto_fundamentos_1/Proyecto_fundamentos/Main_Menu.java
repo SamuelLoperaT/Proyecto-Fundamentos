@@ -1,12 +1,19 @@
 package com.proyecto_fundamentos_1.Proyecto_fundamentos;
+//confirmacion del paquete al que pertenece el archivo
 import java.util.Scanner;
+//importar Scanner
 
 public class Main_Menu{
+    //creacion de la variable correspondiente al Scanner
     static Scanner s = new Scanner(System.in);
+    //creacion de la variable que elige la opcion del menu
     static int selector = 0;
+    
+    //constructor vacio
     public Main_Menu(){
 
     }
+    //funcion que imprime el menu principal
     public static void PrintMenu(){
         System.out.println("Bienvenido a la Red Antisocial: Donde nadie disfruta y todo es dificil de manejar");
         System.out.println("1: Crear Cuenta");
@@ -15,8 +22,10 @@ public class Main_Menu{
         System.out.println("4: Salir");
     }
     public static void Selection(){
+        //funcion que permite elegir la opcion determinada, en base a la variable selector
         selector = s.nextInt();
         while(true){
+            //ciclo infinito para permitir ejecucion continua
             switch(selector){
                 case 1:
                 break;
@@ -28,6 +37,7 @@ public class Main_Menu{
                 case 4:
                 break;
                 default:
+                    //opcion por defecto en caso de que se introduzca una opcion no soportada
                 System.out.println("Opcion fuera de los parametros, por favor, elija nuevamente");
                 break;
         }
