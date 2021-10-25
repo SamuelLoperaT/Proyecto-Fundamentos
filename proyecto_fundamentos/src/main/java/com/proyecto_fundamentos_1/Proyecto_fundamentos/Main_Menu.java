@@ -23,7 +23,7 @@ public class Main_Menu{
                 case 2:
                 break;
                 case 3:
-                System.out.print("la red antisocial:"+"\n\n"+"la red antisocial es el medio de comunicacion del futuro, mejor que facebook (y con menos robos de informacion), y con mas caracteres que twitter"+"\n"+"Con impresionantes caracteristicas como: "+"\n\n"+"1. minima interaccion social desde la terminal de comandos de tu preferencia."+"\n\n"+"2.Dificil y complejo acceso, para estar seguros de que solo personas decentes estan en esta plataforma."+"\n\n"+"3. Impresionantes 281 caracteres para cada publicacion."+"\n"+"imgenes (aun no disponible, WIP)"+"\n\n"+"desde el equipo de la red antisocial esperamos que sea la red 'social' perfecta para ti ;)"+"\n");
+                System.out.print("la red antisocial:"+"\n\n"+"la red antisocial es el medio de comunicacion del futuro, mejor que facebook (y con menos robos de informacion), y con mas caracteres que twitter"+"\n"+"Con impresionantes caracteristicas como: "+"\n\n"+"1. minima interaccion social desde la terminal de comandos de tu preferencia."+"\n\n"+"2.Dificil y complejo acceso, para estar seguros de que solo personas decentes estan en esta plataforma."+"\n\n"+"3. Impresionantes 281 caracteres para cada publicacion."+"\n\n"+"4.imagenes (aun no disponible, WIP)"+"\n\n"+"desde el equipo de la red antisocial esperamos que sea la red 'social' perfecta para ti ;)"+"\n");
                 break;
                 case 4:
                 break;
